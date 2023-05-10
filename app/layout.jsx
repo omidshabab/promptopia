@@ -1,11 +1,12 @@
 import '@styles/globals.css'
+import Nav from "@components/Nav"
 
 export const metadata = {
     title: "Promptopia",
     desc: "Discover & Share AI Prompts"
 }
 
-const RootLayout  = () => {
+const RootLayout  = ({children}) => {
   return (
     <html lang="en">
         <body>
